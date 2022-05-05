@@ -1,4 +1,6 @@
-let precio = 450.5;
-let descuento = 0.1;
-let resultado = precio - descuento * precio;
-console.log("precio con descuento", resultado);
+let precioProducto = 450.5;
+let porcentajeDescuento = 0.1;
+let descuento = precioProducto * porcentajeDescuento;
+let precioFinal = precioProducto - descuento;
+
+console.log("Precio con descuento", precioFinal);
